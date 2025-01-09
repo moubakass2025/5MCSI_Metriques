@@ -27,7 +27,7 @@ def hello_world():
     return render_template('hello.html')
 
 @app.route('/histogramme/')
-def hello_world():
+def monhistogramme():
     return render_template('histogramme.html')
   
 @app.route("/rapport/")
